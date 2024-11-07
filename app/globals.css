@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
