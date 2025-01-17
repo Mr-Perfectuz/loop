@@ -77,6 +77,16 @@
 .cl-userButtonPopoverActionButton {
   color: white;
 }
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+.cl-internal-15di0mo {
+  color: #fff;
+}
+
+.cl-internal-552i73 {
+  color: #fff;
+}
 
 /* =============================== */
 
