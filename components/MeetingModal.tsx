@@ -1,9 +1,9 @@
+"use client";
+
 import React, { ReactNode } from "react";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
-  DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
@@ -16,11 +16,13 @@ interface MeetingModalProps {
   onClose: () => void;
   title: string;
   className?: string;
-  children: ReactNode;
-  handleClick: () => void;
-  buttonText: string;
+  children?: ReactNode;
+  handleClick?: () => void;
+  buttonText?: string;
+  instantMeeting?: boolean;
   image?: string;
-  buttonIcon: string;
+  buttonClassName?: string;
+  buttonIcon?: string;
 }
 
 const MeetingModal = ({
