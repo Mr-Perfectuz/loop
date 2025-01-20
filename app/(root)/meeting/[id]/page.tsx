@@ -26,7 +26,11 @@ function Meeting({ params }: { params: Promise<Params> }) {
     <main className="h-screen w-full">
       <StreamCall call={call}>
         <StreamTheme>
-          {!isSetupComplete ? <MeetingSetup /> : <MeetingRoom />}
+          {!isSetupComplete ? (
+            <MeetingSetup setIsSetupComplete={setisSetupComplete} />
+          ) : (
+            <MeetingRoom />
+          )}
         </StreamTheme>
       </StreamCall>
     </main>
