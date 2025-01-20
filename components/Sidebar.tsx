@@ -33,7 +33,9 @@ const Sidebar = () => {
                 width={24}
                 height={24}
               />
-              <div className="text-lg font-semibold max-lg:hidden">
+
+              <div className='text-lg font-semibold max-lg:hidden'>
+
                 {link.label}
               </div>
             </Link>
