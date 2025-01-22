@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import {
   CallControls,
   CallParticipantsList,
+  CallStatsButton,
   PaginatedGridLayout,
   SpeakerLayout,
 } from "@stream-io/video-react-sdk";
@@ -15,7 +16,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { LayoutList } from "lucide-react";
+import { LayoutList, Users } from "lucide-react";
 
 type CallLayoutType = "grid" | "speaker-left" | "speaker-right";
 
@@ -56,7 +57,7 @@ const MeetingRoom = () => {
           </div>
           <DropdownMenuContent className="border-dark-1 bg-dark-1 text-white">
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
-            {["Grid", "Speaker Left", "Speaker Right"].map((item, index) => (
+            {["grid", "speaker-left", "speaker-right"].map((item, index) => (
               <div key={index}>
                 <DropdownMenuItem
                   className="cursor-pointer"
@@ -71,6 +72,12 @@ const MeetingRoom = () => {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+        <CallStatsButton />
+        <button onClick={() => setshowParticipants((prev) => !prev)}>
+          <div className="cursor-pointer rounded-2xl bg-[#192332d] px-4 py-2 hover:bg-[#4c535b]">
+            <Users size={20} className="text-white" />
+          </div>
+        </button>
       </div>
     </section>
   );
