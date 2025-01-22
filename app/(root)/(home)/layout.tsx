@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect } from "react";
+import React, { ReactNode } from "react";
 
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
@@ -13,11 +13,6 @@ export const metadata: Metadata = {
 };
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
-  useEffect(() => {
-    const fetchHeaders = async () => {};
-    fetchHeaders();
-  }, []);
-
   return (
     <main className="relative">
       <Navbar />
