@@ -4,6 +4,7 @@ import { Dialog, DialogContent } from "./ui/dialog";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { DialogTitle } from "@radix-ui/react-dialog";
 
 interface MeetingModalProps {
   isOpen: boolean;
@@ -61,6 +62,7 @@ const MeetingModal = ({
             {buttonText || "Schedule Meeting"}
           </Button>
         </div>
+        <DialogTitle></DialogTitle>
       </DialogContent>
     </Dialog>
   );
