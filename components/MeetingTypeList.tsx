@@ -157,6 +157,16 @@ const MeetingTypeList = () => {
         handleClick={createMeeting}
         buttonIcon={""}
       />
+
+      <MeetingModal
+        isOpen={meetingState === "isJoiningMeeting"}
+        onClose={() => setmeetingState(undefined)}
+        title="Type the meeting link"
+        className="text-center"
+        buttonText="Join Meeting"
+        handleClick={() => router.push(values.link)}
+        buttonIcon={""}
+      />
     </section>
   );
 };
