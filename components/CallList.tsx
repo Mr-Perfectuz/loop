@@ -1,5 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import { Call, CallRecording } from "@stream-io/video-react-sdk";
@@ -9,14 +7,12 @@ import { useGetCalls } from "@/hooks/useGetCalls";
 import MeetingCard from "./MeetingCard";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useToast } from "@/hooks/use-toast";
 
 const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
   const router = useRouter();
   const { endedCalls, upcomingCalls, callRecordings, isLoading } =
     useGetCalls();
   const [recordings, setRecordings] = useState<CallRecording[]>([]);
-  const { toast } = useToast();
 
   const getCalls = () => {
     switch (type) {
@@ -46,19 +42,15 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
 
   useEffect(() => {
     const fetchRecordings = async () => {
-      try {
-        const callData = await Promise.all(
-          callRecordings?.map((meeting) => meeting.queryRecordings()) ?? []
-        );
+      const callData = await Promise.all(
+        callRecordings?.map((meeting) => meeting.queryRecordings()) ?? []
+      );
 
-        const recordings = callData
-          .filter((call) => call.recordings.length > 0)
-          .flatMap((call) => call.recordings);
+      const recordings = callData
+        .filter((call) => call.recordings.length > 0)
+        .flatMap((call) => call.recordings);
 
-        setRecordings(recordings);
-      } catch (err) {
-        toast({ title: "Try again Later" });
-      }
+      setRecordings(recordings);
     };
 
     if (type === "recordings") {
@@ -76,7 +68,7 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
       {calls && calls.length > 0 ? (
         calls.map((meeting: Call | CallRecording) => (
           <MeetingCard
-            key={(meeting as Call).id}
+            key={(meeting as Call).id || (meeting as CallRecording).end_time}
             icon={
               type === "ended"
                 ? "/icons/previous.svg"
