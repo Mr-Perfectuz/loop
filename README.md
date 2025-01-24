@@ -123,7 +123,7 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/link_view.png" alt="Link join View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/link_view.png" alt="Link join View">
 </a>
 
 👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
