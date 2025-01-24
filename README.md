@@ -66,28 +66,28 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/camera_view.png" alt="Share View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/share_view.png" alt="Share View">
 </a>
 <br />
 
 👉 **Exit Meeting**: Participants can see and search all attendees.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/user_view.png" alt="User View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/user_view.png" alt="User View">
 </a>
 <br />
 
 👉 **Call performance**: Call Latency and performance can be monitored
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/performance_view.png" alt="Performance View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/performance.png" alt="Performance View">
 </a>
 <br />
 
 👉 **Emoji interaction**: You can interact with Emojies during the meeting
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/emoji_view.png" alt="Emoji View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/emoji_view" alt="Emoji View">
 </a>
 <br />
 
@@ -95,35 +95,35 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/schedule_view.png" alt="Schedule View">
+<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/schedule_view.png" alt="Schedule View">
 </a>
 <br />
 
 👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/previous_view.png" alt="Previous View">
+<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/previous_view.png" alt="Previous View">
 </a>
 <br />
 
 👉 **View Recorded Meetings**: Access recordings of past meetings recordings for review or reference.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/recordings_view.png" alt="Recordings View">
+<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/recordings_view.png" alt="Recordings View">
 </a>
 <br />
 
 👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/personal_view.png" alt="Personal View">
+<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/personal_view.png" alt="Personal View">
 </a>
 <br />
 
 👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/link_view.png" alt="Link join View">
+<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/link_view.png" alt="Link join View">
 </a>
 
 👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
