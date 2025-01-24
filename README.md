@@ -95,28 +95,28 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/schedule_view.png" alt="Schedule View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/schedule_view.png" alt="Schedule View">
 </a>
 <br />
 
 👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/previous_view.png" alt="Previous View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/previous_view.png" alt="Previous View">
 </a>
 <br />
 
 👉 **View Recorded Meetings**: Access recordings of past meetings recordings for review or reference.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/recordings_view.png" alt="Recordings View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/recordings_view.png" alt="Recordings View">
 </a>
 <br />
 
 👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/blob/dev/public/images/personal_view.png" alt="Personal View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/personal_view.png" alt="Personal View">
 </a>
 <br />
 
