@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://loop-video.vercel.app/" target="_blank">
-      <img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/home_view.png" alt="Project Banner">
+      <img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/home_view.png" alt="Project Banner">
     </a>
   
   <br />
