@@ -44,7 +44,7 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 
   <br />
     <a href="https://loop-video.vercel.app/" target="_blank">
-      <img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/home_view.png" alt="Login View">
+      <img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/login_view.png" alt="Login View">
     </a>
   <br />
 
