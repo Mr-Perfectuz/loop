@@ -80,14 +80,14 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 👉 **Call performance**: Call Latency and performance can be monitored
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/performance.png" alt="Performance View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/performance_view.png" alt="Performance View">
 </a>
 <br />
 
 👉 **Emoji interaction**: You can interact with Emojies during the meeting
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/emoji_view" alt="Emoji View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/emoji_view.png" alt="Emoji View">
 </a>
 <br />
 
