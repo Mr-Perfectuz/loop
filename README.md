@@ -51,7 +51,7 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 👉 **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/camera_view.png" alt="Camera View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/camera_view.png" alt="Camera View">
 </a>
 <br />
 
@@ -59,14 +59,14 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 
   <br />
     <a href="https://loop-video.vercel.app/" target="_blank">
-      <img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/audio_view.png" alt="Home View">
+      <img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/audio_view.png" alt="Home View">
     </a>
   <br />
 
 👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
 <br />
 <a href="https://loop-video.vercel.app/" target="_blank">
-<img src="https://github.com/Mr-Perfectuz/loop/tree/main/public/images/share_view.png" alt="Share View">
+<img src="https://github.com/Mr-Perfectuz/loop/blob/dev/public/images/camera_view.png" alt="Share View">
 </a>
 <br />
 
