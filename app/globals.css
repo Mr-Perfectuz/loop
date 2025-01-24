@@ -94,6 +94,9 @@
 .cl-internal-zpbffa {
   color: #fff;
 }
+.w-4 {
+  color: #fff;
+}
 /* =============================== */
 
 @layer utilities {
